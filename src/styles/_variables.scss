@@ -1,0 +1,32 @@
+$primaryColor: #006769;
+$secondColor: #40A578;
+$thirdColor: #9DDE8B;
+$fourthColor: #E6FF94;
+
+$component-active-bg: #40A578 !important;
+
+$focus-ring-color: rgba(#9DDE8B, .25) !important;
+$focus-ring-box-shadow: 0 0 0 .25rem #40a5788f !important;
+
+// $form-switch-focus-color:     $input-focus-border-color !important;
+// $form-switch-focus-bg-image:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='3' fill='#{$form-switch-focus-color}'/></svg>") !important;
+
+
+
+
+
+// --------------------------------
+// variabili switch
+
+$component-active-bg:         #E6FF94 !important;
+$input-focus-border-color:     tint-color(#E6FF94, 50%) !important;
+
+
+
+
+$form-switch-focus-color:         tint-color(#E6FF94, 50%);
+$form-switch-focus-bg-image:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='3' fill='#{$form-switch-focus-color}'/></svg>");
+
+// $form-switch-checked-color:       $component-active-color;
+// $form-switch-checked-bg-image:    url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='3' fill='#{$form-switch-checked-color}'/></svg>");
+// $form-switch-checked-bg-position: right center;
